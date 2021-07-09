@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
+.log {
+  margin: 2ch;
+  margin-left: 17in;
+  font-size: 60px;
+  
 
+}
 .App-logo {
   height: 60vmin;
   pointer-events: none;
