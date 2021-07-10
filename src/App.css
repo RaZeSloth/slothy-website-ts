@@ -3,10 +3,16 @@
 }
 .log {
   margin: 2ch;
-  margin-left: 17in;
-  font-size: 60px;
+  margin-left: 17.5in;
+  border: none; /* Remove borders */
+ 
+}
   
-
+.log:active {
+  color: white; 
+}
+.log:hover {
+  color: black
 }
 .App-logo {
   height: 60vmin;
@@ -42,14 +48,14 @@
 
   
 }
-a:active {
+.App-link:active {
   color: white;
   
   transition: 1s;
   
 }
 
-a:hover {
+.App-link:hover {
   -webkit-animation: heartbeat 1.7s infinite ease-in;
           animation: heartbeat 1.7s infinite ease-in;
           

@@ -1,9 +1,8 @@
 import React from 'react';
-const { Database } = require("quickmongo");
-const db = new Database(" ")
-const profile = () => { 
+// const { Database } = require("quickmongo");
+function profile()  { 
    return (
-      <div>
+      <div className="App-header">
          
          <h1>Profile</h1>
          <p>Still wip</p>
