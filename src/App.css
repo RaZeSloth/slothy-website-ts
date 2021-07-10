@@ -3,19 +3,35 @@
 }
 .log {
   margin: 2ch;
-  margin-left: 17.5in;
-  border: none; /* Remove borders */
- 
+  margin-left: auto;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
 }
   
 .log:active {
-  color: white; 
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
 }
 .log:hover {
   color: black
 }
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.purple:hover {
+  background-color: #B573D0;
+}
 .App-logo {
-  height: 60vmin;
+  height: 50vmin;
   pointer-events: none;
 }
 
@@ -28,6 +44,7 @@
 
 .App-header {
   background-color: #eb66eb;
+  background: linear-gradient(135deg, #FFC1F5, #C2AAFF);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -101,3 +118,4 @@
     transform: rotate(360deg);
   }
 }
+

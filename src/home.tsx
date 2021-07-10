@@ -1,16 +1,17 @@
 import React from "react";
 import './App.css';
 
-const Main = () => {
-   return( <div>
-      <header className="App-header">
-        
-         <a href="/profile" className="log" >
-          sussy
+const Home = () => {
+   return( <div className="App-header">
+      <a href="/profile" className="log purple" >
+          Profile
         </a>
-        <img src="slothy.png" className="App-logo" alt="sloth_here" />
+    
+     
+        
+      <img src="slothy.png" className="App-logo" alt="sloth_here" />
         <a
-          className="App-link"
+          className="App-link App logo"
           href="https://discord.com/api/oauth2/authorize?client_id=826056261610373130&permissions=3761564736&scope=bot%20applications.commands"
           target="_blank"
           rel="noopener noreferrer"
@@ -18,8 +19,9 @@ const Main = () => {
           Slothy!
         </a>
 
-      </header>
-    </div>)
+      
+    </div>
+    )
 }
 
-export default Main;
+export default Home;

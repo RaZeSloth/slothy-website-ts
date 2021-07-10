@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Profile from './profile';
-import Main from "./home";
-
+import Home from "./home";
+import Invite from "./invite";
 function App() {
   return (
 
@@ -13,10 +13,10 @@ function App() {
 
 
 
-      <Route exact path="/" component={Main} />
+      <Route exact path="/" component={Home} />
 
       <Route exact path="/profile" component={Profile} />
-
+      <Route exact path="/invite" component={Invite} />
 
     </div>
 

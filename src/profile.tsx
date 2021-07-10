@@ -3,8 +3,10 @@ import React from 'react';
 function profile()  { 
    return (
       <div className="App-header">
-         
-         <h1>Profile</h1>
+         <a href="/" className="log purple" >
+          Home
+        </a>
+         <h1>Profile</h1>  
          <p>Still wip</p>
       </div>
    );
