@@ -16,7 +16,7 @@ function App() {
 
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/invite" component={Invite} />
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
 
     </div>
 
