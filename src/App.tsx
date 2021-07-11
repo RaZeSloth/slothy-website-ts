@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Profile from './profile';
-import Home from "./home";
-import Invite from "./invite";
+import { Route } from 'react-router-dom';
+import Profile from './pages/profile';
+import Home from "./pages/home";
+import Invite from "./pages/invite";
+import NotFound from "./pages/error"
 function App() {
   return (
 
@@ -17,7 +18,7 @@ function App() {
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/invite" component={Invite} />
       <Route exact path="/" component={Home} />
-
+     
     </div>
 
 
