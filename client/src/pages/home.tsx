@@ -3,13 +3,10 @@ import '../App.css';
 
 const Home = () => {
    return( 
-   <div className="App-header">
-      <a href="/profile" className="log purple" >
+   <div className="App-header">        
+   <a href="/profile" className="log purple" >
           Profile
         </a>
-    
-     
-        
       <img src="slothy.png" className="App-logo" alt="sloth_here" />
         <a
           className="App-link App logo"
