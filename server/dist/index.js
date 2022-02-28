@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const path_1 = __importDefault(require("path"));
 const app = (0, express_1.default)();
-console.log(path_1.default.join(__dirname, "../../client/build"));
-app.use(express_1.default.static(path_1.default.resolve(__dirname, "../../client/build")));
-app.use((req, res) => res.sendFile(__dirname + '../../client/build/index.html'));
+console.log(path_1.default.resolve(__dirname, "../.././client/build/index.html"));
+app.use(express_1.default.static(path_1.default.resolve(__dirname, "../.././client/build")));
+app.use((req, res) => res.sendFile(path_1.default.resolve(__dirname + '../.././client/build/index.html')));
 app.get('/sus', (req, res) => {
     res.send('sus');
 });
