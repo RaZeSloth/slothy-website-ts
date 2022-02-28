@@ -2,7 +2,8 @@ import React from "react";
 import '../App.css';
 
 const Home = () => {
-   return( <div className="App-header">
+   return( 
+   <div className="App-header">
       <a href="/profile" className="log purple" >
           Profile
         </a>
